@@ -1,0 +1,87 @@
+{
+  "GAME_SETTINGS": {
+    "num_players": 2,
+    "ai_players": 3,
+    "cards_per_hand": 5,
+    "game_speed": "normal",
+    "show_ai_thinking": true,
+    "sound_enabled": true,
+    "music_enabled": true
+  },
+  "AI_SETTINGS": {
+    "difficulty": "medium",
+    "thinking_delay": 1.0,
+    "strategy_aggression": 0.7,
+    "card_priority": [
+      "mood",
+      "steal_mood",
+      "wild_mood",
+      "swap_hands",
+      "block_mood",
+      "double_trouble"
+    ]
+  },
+  "VISUAL_SETTINGS": {
+    "card_animations": true,
+    "particle_effects": true,
+    "hover_effects": true,
+    "glow_effects": true,
+    "background_animations": true,
+    "card_shadows": true,
+    "tooltips_enabled": true,
+    "animation_speed": 1.0,
+    "color_blind_mode": false,
+    "high_contrast": false
+  },
+  "AUDIO_SETTINGS": {
+    "master_volume": 0.8,
+    "music_volume": 1.0,
+    "sfx_volume": 0.8,
+    "voice_volume": 0.7,
+    "ambient_sounds": true,
+    "card_sounds": true,
+    "victory_fanfare": true
+  },
+  "BALANCE_SETTINGS": {
+    "starting_cards": 5,
+    "max_cards_in_hand": 10,
+    "mood_cards_per_type": 8,
+    "swing_card_counts": {
+      "steal_mood": 5,
+      "swap_hands": 4,
+      "block_mood": 5,
+      "double_trouble": 3,
+      "wild_mood": 3
+    },
+    "win_condition_moods": 5
+  },
+  "THEME_SETTINGS": {
+    "current_theme": "dark",
+    "available_themes": [
+      "default",
+      "dark",
+      "pastel",
+      "neon"
+    ],
+    "card_back_design": "classic",
+    "background_style": "animated",
+    "font_style": "modern"
+  },
+  "PERFORMANCE_SETTINGS": {
+    "target_fps": 60,
+    "vsync_enabled": true,
+    "particle_limit": 100,
+    "animation_smoothing": true,
+    "reduce_animations": false,
+    "low_power_mode": false
+  },
+  "UI_ENHANCEMENTS": {
+    "card_hover_lift": true,
+    "card_hover_glow": true,
+    "selection_animations": true,
+    "turn_transitions": true,
+    "victory_celebrations": true,
+    "interactive_tutorial": false,
+    "accessibility_features": true
+  }
+}
